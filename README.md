@@ -15,6 +15,7 @@
 go get github.com/codeskyblue/go-sh
 ```
 
+
 * youtube-dl
 
 To install it right away for all UNIX users (Linux, OS X, etc.), type:
@@ -56,18 +57,10 @@ sudo port install youtube-dl
 Alternatively, refer to the developer instructions for how to check out and work with the git repository. For further options, including PGP signatures, see the youtube-dl Download Page.
 
 
-
-
-Install dependencies:
+## Run example
 
 ```
-$ 
+go run ytdlgox-GoroutineChannels.go
 ```
 
-## Run development
 
-Start dev server:
-
-```
-$ make serve
-```
